@@ -52,7 +52,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #42A8C0;
+  background: rgb(47, 62, 94);
   position: absolute;
   right: 0;
   width: 240px;
@@ -100,7 +100,7 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 18px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -161,7 +161,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2d7788;
+  color: rgb(47, 62, 94);
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -180,7 +180,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2d7788;
+  background: rgb(47, 62, 94);
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -242,7 +242,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #7bc2d3;
+  background: rgb(47, 62, 94);
 }
 .footer {
   padding: 30px;
@@ -293,3 +293,27 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+#profilePic{
+
+    filter: tint(blue) saturate(3.3); 
+      display: inline;
+    margin: 0 auto;
+    height: 150px;
+    width: auto;
+    position: relative;
+    right: 9%;
+    bottom: 4%;
+     
+}
+
+.image-cropper {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+        right: -18%;
+            top: -12px;
+
+}
